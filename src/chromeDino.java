@@ -83,18 +83,18 @@ public class chromeDino extends JPanel implements ActionListener, KeyListener {
         setFocusable(true);
         addKeyListener(this);
 
-        dinosaurImg = new ImageIcon("game_image/dino-run.gif").getImage();
-        dinosaurDead = new ImageIcon("game_image/dino-dead.png").getImage();
-        dinosaurJump = new ImageIcon("game_image/dino-jump.png").getImage();
+        dinosaurImg = new ImageIcon("../game_image/dino-run.gif").getImage();
+        dinosaurDead = new ImageIcon("../game_image/dino-dead.png").getImage();
+        dinosaurJump = new ImageIcon("../game_image/dino-jump.png").getImage();
 
-        cactus1 = new ImageIcon("game_image/cactus1.png").getImage();
-        cactus2 = new ImageIcon("game_image/cactus2.png").getImage();
-        cactus3 = new ImageIcon("game_image/cactus3.png").getImage();
+        cactus1 = new ImageIcon("../game_image/cactus1.png").getImage();
+        cactus2 = new ImageIcon("../game_image/cactus2.png").getImage();
+        cactus3 = new ImageIcon("../game_image/cactus3.png").getImage();
 
-        bigcactus1 = new ImageIcon("game_image/big-cactus1.png").getImage();
-        bigcactus2 = new ImageIcon("game_image/big-cactus2.png").getImage();
-        bigcactus3 = new ImageIcon("game_image/big-cactus3.png").getImage();
-        birdImg = new ImageIcon("game_image/bird.gif").getImage();
+        bigcactus1 = new ImageIcon("../game_image/big-cactus1.png").getImage();
+        bigcactus2 = new ImageIcon("../game_image/big-cactus2.png").getImage();
+        bigcactus3 = new ImageIcon("../game_image/big-cactus3.png").getImage();
+        birdImg = new ImageIcon("../game_image/bird.gif").getImage();
 
         dinosaur = new Block(dinoX, dinoY, dinoWidth, dinoHeight, dinosaurImg);
         cactusArray = new ArrayList<Block>();
